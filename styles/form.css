@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    /* background-color: rgb(2, 2, 24); */
+    background-image: url("bgk2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(19, 19, 19);
+
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0.4em;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+label{
+    font-size: 1.5em;
+    font-family: 'Maven Pro', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    align-content: left;
+    margin-bottom: 1.8em;
+    color: white;
+}
+input{
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+button{
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 5em;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    transition: color 0.15s ease-out;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: 1px solid yellow;
+    border-radius: 0.4em;
+    color: yellow;
+}
+button:hover{
+    font-size: 1em;
+    background-color:yellow;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 5.5em;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    transition: color 0.15s ease-out;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: 1px solid yellow;
+    border-radius: 0.4em;
+    color: yellow;
+    margin: .5em;
+    padding-left: 1em;
+    width: 5.5em;
+    padding-right: 1em;
+}
+a:hover{
+    font-size: 1em;
+    background-color:yellow;
+    color: white;
+}
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: none;
+    border-color: rgb(227, 225, 225);
+    border-width: 3px;
+    color: white;
+    margin-left: 1.3em;
+    width: 15em;
+}
+input:focus{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    width: 15em;
+    color: yellow;
+    border-color: white;
+}
+
+@media(max-width: 800px){
+    h1{
+        font-size: 2em;
+    }
+    form{
+        font-size: 1.2em;
+    }
+    label{
+        font-size: 1.2em;
+    }
+    input{
+        width: 10em;
+        font-size: 1em;
+    }
+    input:focus{
+       width:11em;
+    }
+}

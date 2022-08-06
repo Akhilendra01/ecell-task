@@ -1,0 +1,16 @@
+this website is built using mongodb
+1)install mongodb
+2)in c drive open c terminal and run command 
+	mongod
+3)open terminal in ecellTask folder and run command
+	node index.js
+4)website is live at localhost:3000/home
+
+frontend->javascript
+	framework-> react angular vue
+
+mongodb->database
+nodejs->language
+	backend framework->Expressjs
+	middleware->mongoose
+gitbash, powershell, zsh->terminal

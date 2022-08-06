@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Open+Sans:wght@300&family=Water+Brush&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Registration Page</h1>
+    <div>
+        <form action="/home" method="post">
+            <label for="username">Username 
+                <input type="text" id="username" placeholder="Username" name="user" required>
+            </label>
+            <br>
+            <label for="email">Email
+                <input type="email" id="email" placeholder="Email" name="email" required>
+            </label>
+            <br>
+            <label for="phone">Phone
+                <input type="tel" id="phone" placeholder="Phone" name="mob" required>
+            </label>
+            <br>
+            <label for="scholar">Scholar no.
+                <input type="tel" id="scholar" placeholder="Scholar No." name="sch" required>
+            </label>
+            <br>
+            <label for="branch">Branch
+                <input type="text" id="branch" placeholder="Branch" name="branch" required>
+            </label>
+            <br>
+            <div>
+                <button>Submit</button>
+                <a href="/home">Back</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
